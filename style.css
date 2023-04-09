@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+.calender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 30px 30px 30px;
+    height: 500px;
+    width: 600px;
+    background-color: antiquewhite;
+}
+.yearContainer{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.yearContainer>.month{
+    margin: 5px;
+}
+.yearContainer>.year{
+    margin: 5px;
+}
+.days{
+    display: flex;
+    background-color: white;
+    font-size: 20px;
+}
+.days *{
+    margin: 20px;
+}
+.date{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+    padding: 10px;
+}
+.date *{
+    margin: 20px;
+}
+.day{
+    background-color: white;
+    align-items: center;
+    
+}
+.day:hover{
+    background-color: aquamarine;
+}
